@@ -35,6 +35,24 @@ const blcParagraphLineHeight = (size_name) => {
 	}
 }
 
+// ----- Icon Utils -----
+const blcIconSize = (size_name) => {
+	switch (size_name) {
+	case "largest":
+		return size.iconLargest
+	case "larger":
+		return size.iconLarger
+	case "smaller":
+		return size.iconSmaller
+	case "smallest":
+		return size.iconSmallest
+	case "inherit":
+		return '100%'
+	default:
+		return size.icon
+	}
+}
+
 // ----- Button Utils -----
 const blcButtonSize = (size_name) => {
 	switch (size_name) {
@@ -100,23 +118,24 @@ const blcContainerSize = (size_name) => {
 const blcColumnGutter = (size_name) => {
 	switch (size_name) {
 	case "largest":
-		return size.marginLargest
+		return 40
 	case "larger":
-		return size.marginLarger
+		return 32
 	case "smaller":
-		return size.marginSmaller
+		return 16
 	case "smallest":
-		return size.marginSmallest
+		return 8
 	case "inherit":
-		return '0'
+		return 0
 	default:
-		return size.margin
+		return 24
 	}
 }
 
 const util = {
 	blcParagraphSize,
 	blcParagraphLineHeight,
+	blcIconSize,
 	blcButtonSize,
 	blcButtonPadding,
 	blcButtonRadius,

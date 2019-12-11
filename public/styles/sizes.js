@@ -56,6 +56,13 @@ const size = {
 	pSmallerLineHeight:	 	1.43,
 	pSmallestLineHeight:	1.50,
 
+	// Icons:
+	iconLargest:			unit(5),
+	iconLarger:				unit(4),
+	icon:					unit(3),
+	iconSmaller:			unit(2),
+	iconSmallest:			unit(1),
+
 	// ----- Components -----
 	header: 				unit(9)
 }
