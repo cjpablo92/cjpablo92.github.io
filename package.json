@@ -1,7 +1,7 @@
 {
-  "name": "john-doe-starter-site",
+  "name": "juan-pablo-calvo-personal-site",
   "private": true,
-  "description": "A personal site built on the bare-bones starter for Gatsby",
+  "description": "My personal site built using Gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -50,9 +50,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/surudhb/gatsby-personal-site-template"
-  },
-  "bugs": {
-    "url": "https://github.com/surudhb/gatsby-personal-site-template/issues"
+    "url": "https://github.com/cjpablo92/cjpablo92.github.io"
   }
 }
