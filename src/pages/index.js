@@ -22,7 +22,7 @@ export default ({ data }) => {
         />
         {unemployed && (
           <p className="mt-2">
-            <b> Hey! I am looking for new opportunities :)</b>
+            <b> Hey! I am always looking for new challenges :)</b>
           </p>
         )}
         <Container className="py-0 my-0">
@@ -45,7 +45,7 @@ export default ({ data }) => {
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
-            href="https://www.github.com"
+            href="https://github.com/cjpablo92"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,7 +56,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/juanpablocalvomoncher/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -67,29 +67,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://www.freecodecamp.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "free-code-camp"]}
-              className="icons fcc"
-              title="FreeCodeCamp"
-            />
-          </a>
-          <a
-            href="https://www.hackerrank.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "hackerrank"]}
-              className="icons hr"
-              title="Hackerrank"
-            />
-          </a>
-          <a
-            href="mailto:johndoe@gmail.com"
+            href="mailto:cjpablo92@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,13 +77,13 @@ export default ({ data }) => {
               title="e-mail"
             />
           </a>
-          <a href="../../resume.pdf" target="_blank" download>
+          {/* <a href="../../resume.pdf" target="_blank" download>
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}
               className="icons file"
               title="Resume"
             />
-          </a>
+          </a> */}
         </div>
       </Container>
     </PageLayout>

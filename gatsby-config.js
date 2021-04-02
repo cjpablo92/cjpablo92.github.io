@@ -24,32 +24,22 @@ module.exports = {
     ],
     readingList: [
       {
-        title: `Sapiens: A Brief History of Humankind`,
-        author: `Yuval Noah Harari`,
-        link: `https://www.goodreads.com/book/show/23692271-sapiens`,
+        title: `Clean Code: A Handbook of Agile Software Craftsmanship`,
+        author: `Robert C. Martin`,
+        link: `https://www.goodreads.com/book/show/3735293-clean-code`,
       },
       {
-        title: `Behave: The Biology of Humans at our Best and Worst`,
-        author: `Robert Sapolsky`,
-        link: `https://www.goodreads.com/book/show/31170723-behave`,
+        title: `Software Architecture in Practice`,
+        author: `Len Bass, Paul Clements, Rick Kazman`,
+        link: `https://www.goodreads.com/book/show/70143.Software_Architecture_in_Practice`,
       },
       {
-        title: `The Gene: An Intimate History`,
-        author: `Siddhartha Mukeherjee`,
-        link: `https://www.goodreads.com/book/show/27276428-the-gene`,
+        title: `Pro Git`,
+        author: `Scott Chacon`,
+        link: `https://www.goodreads.com/book/show/6518085-pro-git`,
       },
     ],
     showsList: [
-      {
-        title: `Avatar: The Last Airbender`,
-        author: `Micheal DiMartino, Bryan Konietzko`,
-        link: `https://www.imdb.com/title/tt0417299/`,
-      },
-      {
-        title: `Love, Death & Robots`,
-        author: `Tim Miller`,
-        link: `https://www.imdb.com/title/tt9561862/`,
-      },
       {
         title: `Star Wars: The Clone Wars`,
         author: `George Lucas, Dave Filoni`,
