@@ -13,14 +13,14 @@ module.exports = {
     lastName: `Calvo`,
     description: `Juan Pablo's personal site`,
     occupation: `Technical Leader`,
-    keywords: [`John`, `Doe`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
+    keywords: [`Juan Pablo`, `Calvo`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
     designations: [
       `Coding Monkey`,
       `Jedi Master`,
-      `Binary Sunset Enthusiast`
+      `Tech Lover`
     ],
     readingList: [
       {
@@ -74,8 +74,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe's Personal Site`,
-        short_name: `J.Doe`,
+        name: `Juan Pablo's Personal Site`,
+        short_name: `J.Calvo`,
         description: `This is my personal site.`,
         start_url: `/`,
         background_color: `#fff`,
