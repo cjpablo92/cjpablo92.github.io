@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/cjpablo/GitHub/cjpablo92.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"John Doe's Personal Site","short_name":"J.Doe","description":"This is my personal site.","start_url":"/","background_color":"#fff","theme_color":"#fff","display":"standalone","icon":"/Users/cjpablo/GitHub/cjpablo92.github.io/static/favicon.ico","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"3a318e3ceb32f2e06b497c0795ae14cb"},
+      options: {"plugins":[],"name":"Juan Pablo's Personal Site","short_name":"J.Calvo","description":"This is my personal site.","start_url":"/","background_color":"#fff","theme_color":"#fff","display":"standalone","icon":"/Users/cjpablo/GitHub/cjpablo92.github.io/static/favicon.ico","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"3a318e3ceb32f2e06b497c0795ae14cb"},
     },{
       plugin: require('/Users/cjpablo/GitHub/cjpablo92.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
