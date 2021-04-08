@@ -34,9 +34,9 @@ export default ({ data }) => {
       <Container>
         <Image
           rounded
-          width="140"
-          height="140"
-          src={`../../icons/luke-${toString()}.png`}
+          width="280"
+          height="280"
+          src={`../../images/profile.jpeg`}
           alt={author}
         />
         <article className="w-75 m-auto pt-2 text-justify">
@@ -58,23 +58,31 @@ export default ({ data }) => {
               padawan
             </a>
             &nbsp;
-            <b>{occupation}</b> discovering the ways of the code. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            <b>{occupation}</b> discovering the ways of the code. I’m passionate about technology, 
+            software architecture, research, and innovation. 
+            Always looking for new challenges that keep my mind working and push the boundaries of my knowledge and experience, 
+            I have worked on many different projects. From pure backend with millions of RPMs to carefully designed performant frontends, 
+            and on monolithic apps, libraries, and microservices. 
+            I’m interested in performance, code quality (Clean Code fan 😛), scalable and clean architectural solutions.
           </p>
+          <p className="i-5">Also, since 2018 I have been part of ORT Uruguay university’s teaching staff. 
+            I have been in charge of teaching both theoretical and practical subjects. 
+            For example, in Programming 1, I give the students the first approach to programming from scratch by teaching the theoretical concepts and 
+            then I help them apply that to a particular language (Javascript); 
+            in Programming 2, the focus is on software design quality, 
+            and we see in more detail object-oriented programming (we see it in Java). 
+            And finally, Programming for Biotechnology is also the first approach to programming but targeted to a profile that needs more problem solving through programming 
+            and we focus rather on scripting. 
+            Having the opportunity to work at the same university where I got my degree has been a very rewarding and 
+            enriching experience and something I enjoy doing.</p>
           <p className="i-5">
-            In my spare time, Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
+            In my spare time, I like to play videogames, watch Netflix, try some new tech/framework/cool thing and read about cars. 
           </p>
-          <p className="i-5">
+          {/* <p className="i-5">
             Check out my <Link to="/projects">projects</Link> to see what I've
             been up to! Or check out my <Link to="/blog">blog</Link> to see
             what's recently caught my eye!
-          </p>
+          </p> */}
         </article>
         <article className="w-75 m-auto">
           {unemployed && (
@@ -86,7 +94,7 @@ export default ({ data }) => {
                   like what you <Link to="/resume">see</Link>, let's get
                   in&nbsp;
                   <a
-                    href="mailto:red.five@rebellion.com"
+                    href="mailto:cjpablo92@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
